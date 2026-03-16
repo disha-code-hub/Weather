@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#section {
+  height: 80%;
+  width: 30%;
+  background: linear-gradient(pink, blue);
+  border-radius: 20px;
+
+}
+
+#enter-city {
+  margin-top: 10px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#search {
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+#searchicon {
+  height: 20px;
+  margin-top: 3px;
+}
+#search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#bottom-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.details{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+}
+#humidity,#wind-speed{
+  display:flex;
+  align-items:center;
+  gap:10px;
+} 
+#weather-icon{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top:30px;
+  color:white;
+}
+#temp{
+  font-size:50px;
+  margin-bottom: 5px;
+
+}
+span{
+  font-size:40px;
+}
+#city-name{
+  font-size:40px;
+}
+#tempBox{
+  display:flex;
+  align-items:center
+}
+
+
